@@ -35,3 +35,4 @@ for i, cls in enumerate(classes):
         solution_map.append({
             "row": i, "col": j, "label": cls
         })
+print(solution_map)
