@@ -38,5 +38,5 @@ def combine_images(folder_path):
         print(f"Saved combined image: {output_filename}")
 
 if __name__ == "__main__":
-    folder_path = input("Enter the folder path containing images: ")
+    folder_path = input("/home/parag/images/stablediffusion")
     combine_images(folder_path)
